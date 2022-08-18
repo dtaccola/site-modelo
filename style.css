@@ -1,0 +1,531 @@
+:root {
+  --color-1: #0b3039;
+  --color-2: #334a5c;
+  --color-3: #6f5771;
+  --color-4: #b06584;
+  --color-5: #d57f98;
+
+  /* fontes
+  Carreer Booster - League Spartan - 55,9
+  Demais textos - Cooper Hewitt
+  CURSO DE INGLÊS - EBDDD0
+  Career Booster - D984A3 */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: var(--color-1);
+}
+
+button {
+  width: 30%;
+  height: 10vh;
+  margin: 1.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  background: #0a0a0a;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 2;
+  transition: 5ms ease-in-out;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+th, td {
+  text-align: center;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+header {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid green;
+
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(107,9,121,1) 0%, rgba(199,123,157,1) 0%, rgba(11,48,57,1) 60%);
+}
+
+header .banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content p {
+  font-size: 1.5rem;
+  color: #FFF;
+  max-width: 70%;
+  text-align: center;  
+}
+
+.banner-content span {
+  font-size: 1rem;
+  color: #fff;  
+}
+
+.banner-content img {
+  height: 2rem;  
+}
+
+.banner-content h1 { 
+  font-size: 4rem;
+  color: #D57F98;
+  text-shadow: 2px 2px 0px #644c4c;
+}
+
+.banner-content button {
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(107,9,121,1) 0%, rgba(199,123,157,1) 0%, rgba(217,132,163,1) 60%);
+  transition: 0.5s;
+}
+
+section {
+  padding: 6rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;    /* poderia ser margin-bottom pra cada elemento, gap dá um espaçamento entre todos
+  os filhos de uma div com display flex*/
+}
+
+section p {
+  color: #FFF;
+  
+  max-width: 80%;
+  line-height: 1.5rem;
+}
+
+section h2 {
+  margin: 2rem 0;
+}
+
+.container {
+  box-shadow: 8px 10px 5px #0003;
+  max-width: 500px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.accordion_item {
+  border-radius: 5px;
+}
+
+.accordion_item:hover {
+  opacity: 0.9;
+}
+
+.accordion_header {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion_content {
+  margin-left: 50px;
+  margin-right: 15px;
+  overflow: hidden;
+  height: 0;
+  transition: all .5s ease;
+  font-size: 14px;
+}
+
+.active {
+  padding-bottom: 10px;
+}
+
+span, .icon {
+  font-weight: 600;
+}
+
+/* Cabeçalho - Primeira seção */
+.primeira-secao {
+  background: var(--color-1);
+}
+
+.primeira-secao span {
+  color: var(--main-color);
+}
+
+/* segunda-secao */
+.segunda-secao {
+  background: var(--color-2);
+  color: #fff;
+}
+
+.segunda-secao h1 {
+  text-align: center;
+  font-size: 1.9rem;
+}
+.segunda-secao div {
+  display: flex;
+}
+
+.segunda-secao div img {
+  width: 50vw;
+  height: 50vh;
+  margin: 1rem;
+}
+
+ul {
+  list-style-position: inside;
+  padding-top: 1rem;
+}
+
+ul li {
+  font-size: 1.5rem;
+}
+
+/* terceira-secao */ 
+.terceira-secao {
+  /* poderia ser margin-bottom pra cada elemento, gap dá um espaçamento entre todos
+  os filhos de uma div com display flex*/
+  background: var(--color-3);
+  color: #fff;
+}
+
+.terceira-secao p {
+  color: #FFF;
+  
+  max-width: 80%;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* quarta-secao */ 
+.quarta-secao {
+  padding: 6rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: var(--color-4);
+  color: #fff;
+}
+
+.quarta-secao span {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.quarta-secao p {
+  color: #FFF;
+  
+  max-width: 80%;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* quinta-secao */ 
+.quinta-secao {
+  padding: 6rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: var(--color-5);
+  color: #fff;
+}
+
+.quinta-secao p {
+  color: #FFF;
+  
+  max-width: 80%;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* Seção de métricas */
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+  padding: 0 8rem;
+  margin-top: 2rem;
+}
+
+.metric {
+  width: 300px;
+  height: 120px;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: #d99494;
+  color: #FFF;
+}
+
+.metric:hover {
+  background: #c67474;
+  transition: ease-out 0.5s;
+}
+
+.metric h1 {
+  color: var(--main-color);
+  font-size: 3rem;
+}
+
+.metric span {
+  color: var(--text-color);
+  line-height: 140%;
+  font-size: 90%;
+}
+
+.metric .metric-title {
+  font-weight: 500;
+  color: #101828;
+}
+
+/* Seção de talentos */
+
+.talents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+  padding-top: 8rem;
+  gap: 1rem;
+}
+
+.talents h2 {
+  text-align: center;
+  color: var(--title-color);
+}
+
+.talents span {
+  color: var(--main-color);
+  background: rgba(142, 36, 36, 0.05);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.talents p {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.talents img {
+  margin-top: 2rem;
+  width: 80%;
+}
+
+/* Seção de vagas abertas */
+
+.vagas-abertas {
+  padding-top: 4rem;
+}
+
+.vagas-abertas span.area-principal {
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: var(--title-color);
+}
+
+.vaga {
+  border: 1px solid #EAECF0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  color: var(--title-color);
+}
+
+.vaga span.titulo-vaga {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.vaga .informacoes {
+  margin-top: 1rem;
+  font-size: 90%;
+  color: var(--text-color);
+  display: flex;
+  gap: 2rem;
+}
+
+/* Seção de depoimentos */
+
+.depoimento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  margin: 8rem auto;
+  background-color: rgba(217, 141, 141, 1);
+  padding: 3rem 2rem;
+}
+
+.depoimento span {
+  color: var(--main-color);
+  font-weight: 500;
+  text-align: center;
+}
+
+.depoimento img {
+  width: 100px;
+}
+
+.depoimento h2 {
+  color: var(--title-color);
+  font-weight: 500;
+  text-align: center;
+  max-width: 70%;
+  margin: 2rem 0;
+}
+
+.depoimento span.nome {
+  color: var(--title-color);
+  margin: 0.5rem 0;
+  font-weight: 400;
+}
+
+.depoimento span.cargo {
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+/* Seção final - formulário de email */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--footer-color);
+  padding: 6rem 1rem;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+footer h2 {
+  color: var(--title-color);
+}
+
+.footer-links{
+  display: flex;
+}
+
+footer a {
+  color: #d2d2e5;
+  margin-right: 5px;
+}
+
+footer span {
+  color: var(--text-color);
+}
+
+footer form {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer input {
+  outline: none;
+  border: 1px solid #D0D5DD;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  width: 12rem;
+  margin-right: 1rem;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 920px) {
+  .metrics {
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  p {
+    font-size: 10px;
+  }
+
+  button {
+    width: 70vw;
+    height: 6vh;
+  }
+
+  ul li {
+    font-size: 1rem;
+  }
+
+  .primeira-secao p {
+    max-width: 80%;
+    font-size: 1rem;
+  }
+
+
+  .segunda-secao div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+  }
+
+  .segunda-secao h1 {
+    font-size: 1.4rem;
+  }
+
+  .segunda-secao div img {
+    max-width: 100%;
+  }
+
+  .segunda-secao div img {
+    width: 80vw;
+    height: 30vh;      
+  }
+
+  .segunda-secao div ul {
+    margin-top: 1rem;
+  }
+
+  .metrics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .metric {
+    align-items: center;
+    justify-content: center;
+  }
+
+}
