@@ -31,11 +31,12 @@ button {
   margin: 1.5rem 1rem;
   cursor: pointer;
   border: none;
-  border-radius: 10px;
+  border-radius: 9px;
   font-size: 0.9rem;
-  opacity: 0.9;
-  background: #0a0a0a;
-  color: #fff;
+  background: rgb(217,132,163);
+  background: linear-gradient(90deg, rgba(217,132,163,1) 0%, rgba(236,79,149,1) 100%, rgba(0,212,255,1) 100%, rgba(107,9,121,1) 100%);
+  color: #D0D5DD;
+  transition: 0.5s;
 }
 
 button:hover {
@@ -58,7 +59,7 @@ ul li {
 header {
   margin: 1rem auto;
   width: 80%;
-  height: 80vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
 
@@ -68,8 +69,7 @@ header {
 
 .banner-image img {
   max-width: 100%;
-  max-height: 100%;
-  /* border: solid 1px green; */
+  height: 100.3%;
 }
 
 header .banner-content {
@@ -89,8 +89,9 @@ header .banner-content {
 
 .banner-content span {
   font-size: 1.5rem;
+  letter-spacing: 8px;
   color: #EBDDD0;  
-
+  font-family: 'Barlow', sans-serif;
 }
 
 .banner-content img {
@@ -106,9 +107,7 @@ header .banner-content {
 
 .banner-content button {
   width: 30vw;
-  background: rgb(217,132,163);
-  background: linear-gradient(90deg, rgba(217,132,163,1) 0%, rgba(236,79,149,1) 100%, rgba(0,212,255,1) 100%, rgba(107,9,121,1) 100%);
-  transition: 0.5s;
+
 }
 
 
@@ -175,9 +174,9 @@ section h2 {
   padding-bottom: 10px;
 }
 
-span, .icon {
+/* span, .icon {
   font-weight: 600;
-}
+} */
 
 /* Cabeçalho - Primeira seção */
 .primeira-secao {
