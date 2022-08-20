@@ -4,7 +4,6 @@
   --color-3: #6f5771;
   --color-4: #b06584;
   --color-5: #d57f98;
-
 }
 
 * {
@@ -32,7 +31,6 @@ button {
   background: linear-gradient(90deg, rgba(217,132,163,1) 0%, rgba(236,79,149,1) 100%, rgba(0,212,255,1) 100%, rgba(107,9,121,1) 100%);
   color: #D0D5DD;
   opacity: 0.9;
-  transition: 0.5s;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -75,7 +73,7 @@ header {
   height: 100.3%;
 }
 
-header .banner-content {
+.banner-content {
   display: flex;
   flex-direction: column;
   align-items: center;
