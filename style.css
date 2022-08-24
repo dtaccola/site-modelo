@@ -109,7 +109,6 @@ header {
 
 }
 
-
 section {
   padding: 6rem 1rem;
   display: flex;
@@ -184,8 +183,8 @@ section h2 {
 
 /* segunda-secao */
 .segunda-secao {
-  background: var(--color-2);
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 .segunda-secao h1 {
@@ -203,19 +202,20 @@ section h2 {
 }
 
 ul {
+  list-style: "\2705";
   list-style-position: inside;
-  padding-top: 1rem;
+  padding: 0;
+}
+li {
+  padding-left: 1.3em;
 }
 
-ul li {
-  font-size: 1.5rem;
-}
 
 /* terceira-secao */ 
 .terceira-secao {
   /* poderia ser margin-bottom pra cada elemento, gap dá um espaçamento entre todos
   os filhos de uma div com display flex*/
-  background: var(--color-3);
+  background: var(--color-5);
   color: #fff;
 }
 
@@ -228,7 +228,7 @@ ul li {
 }
 
 /* quarta-secao */ 
-.quarta-secao {
+/* .quarta-secao {
   padding: 6rem 1rem;
   display: flex;
   flex-direction: column;
@@ -249,7 +249,7 @@ ul li {
   max-width: 80%;
   line-height: 1.5rem;
   font-size: 1.5rem;
-}
+} */
 
 /* quinta-secao */ 
 .quinta-secao {
@@ -258,7 +258,7 @@ ul li {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  background: var(--color-5);
+  background: var(--color-1);
   color: #fff;
 }
 
@@ -268,6 +268,26 @@ ul li {
   max-width: 80%;
   line-height: 1.5rem;
   font-size: 1.5rem;
+}
+
+.sexta-secao {
+  background: #fff;
+}
+
+.setima-secao {
+  background: var(--color-5);
+}
+
+.oitava-secao {
+  background: var(--color-1);
+}
+
+.nona-secao {
+  background: #fff;
+}
+
+.decima-secao {
+  background: var(--color-5);
 }
 
 /* Seção de métricas */
@@ -345,47 +365,7 @@ ul li {
   width: 80%;
 }
 
-/* Seção de vagas abertas */
-
-.vagas-abertas {
-  padding-top: 4rem;
-}
-
-.vagas-abertas span.area-principal {
-  display: block;
-  max-width: 50%;
-  margin: 0 auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-weight: bold;
-  color: var(--title-color);
-}
-
-.vaga {
-  border: 1px solid #EAECF0;
-  border-radius: 0.5rem;
-  padding: 1rem;
-  max-width: 50%;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-  color: var(--title-color);
-}
-
-.vaga span.titulo-vaga {
-  font-weight: 500;
-  margin-bottom: 16px;
-}
-
-.vaga .informacoes {
-  margin-top: 1rem;
-  font-size: 90%;
-  color: var(--text-color);
-  display: flex;
-  gap: 2rem;
-}
-
 /* Seção de depoimentos */
-
 .depoimento {
   display: flex;
   flex-direction: column;
