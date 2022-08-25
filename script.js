@@ -1,5 +1,4 @@
 const accordion_item = document.querySelectorAll(".accordion_item");
-console.log(accordion_item);
 
 accordion_item.forEach((item) => {
   const accordion_header_item = item.querySelector(".accordion_header");
