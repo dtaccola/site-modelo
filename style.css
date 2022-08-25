@@ -270,6 +270,10 @@ li {
   display: flex;
 }
 
+.teacher p {
+  max-width: fit-content;
+}
+
 .oitava-secao {
   background: var(--color-5);
 }
