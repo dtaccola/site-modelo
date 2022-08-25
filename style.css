@@ -159,11 +159,11 @@ section h2 {
 }
 
 .accordion_header span {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .accordion_content p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .accordion_content {
@@ -177,7 +177,9 @@ section h2 {
 
 .active {
   padding-bottom: 1px;
+  color: #000;
 }
+
 
 /* Cabeçalho - Primeira seção */
 .primeira-secao {
@@ -300,6 +302,7 @@ li {
 
 .decima-secao h2 {
   color: #fff;
+  font-size: 2rem;
 }
 
 
@@ -610,4 +613,14 @@ footer input {
     background: var(--color-5);
   }
 
+  /* accordion */
+  .container {
+    max-width: 90%;
+  }
+
+  .decima-secao h2 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+  }
 }
