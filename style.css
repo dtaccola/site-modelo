@@ -3,13 +3,13 @@
   --color-2: #334a5c;
   --color-3: #6f5771;
   --color-4: #b06584;
-  --color-5: linear-gradient(0deg, rgba(226,189,202,1) 1%, rgba(227,131,159,1) 100%);
+  --color-5: linear-gradient(0deg, rgba(226, 189, 202, 1) 1%, rgba(227, 131, 159, 1) 100%);
 }
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -27,8 +27,8 @@ button {
   border: none;
   border-radius: 9px;
   font-size: 1.5rem;
-  background: rgb(217,132,163);
-  background: linear-gradient(90deg, rgba(217,132,163,1) 0%, rgba(236,79,149,1) 100%, rgba(0,212,255,1) 100%, rgba(107,9,121,1) 100%);
+  background: rgb(217, 132, 163);
+  background: linear-gradient(90deg, rgba(217, 132, 163, 1) 0%, rgba(236, 79, 149, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(107, 9, 121, 1) 100%);
   color: #D0D5DD;
   opacity: 0.9;
   font-family: 'Barlow', sans-serif;
@@ -43,7 +43,8 @@ p {
   font-size: 1.5rem;
 }
 
-th, td {
+th,
+td {
   text-align: center;
 }
 
@@ -55,8 +56,8 @@ header {
   width: 100%;
   height: 60vh;
   display: flex;
-  /* justify-content: center; */  
-  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(107,9,121,1) 0%, rgba(199,123,157,1) 0%, rgba(11,48,57,1) 60%);
+  /* justify-content: center; */
+  background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(107, 9, 121, 1) 0%, rgba(199, 123, 157, 1) 0%, rgba(11, 48, 57, 1) 60%);
 }
 
 img {
@@ -81,21 +82,21 @@ img {
   font-size: 1.5rem;
   color: #FFF;
   max-width: 100%;
-  text-align: center;  
+  text-align: center;
 }
 
 .banner-content span {
   font-size: 1.5rem;
   letter-spacing: 8px;
-  color: #EBDDD0;  
+  color: #EBDDD0;
   font-family: 'Barlow', sans-serif;
 }
 
 .banner-content img {
-  height: 5rem;  
+  height: 5rem;
 }
 
-.banner-content h1 { 
+.banner-content h1 {
   font-size: 4rem;
   color: #D984A3;
   text-shadow: 2px 2px 0px #644c4c;
@@ -112,7 +113,8 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;    /* poderia ser margin-bottom pra cada elemento, gap dá um espaçamento entre todos
+  gap: 1rem;
+  /* poderia ser margin-bottom pra cada elemento, gap dá um espaçamento entre todos
   os filhos de uma div com display flex*/
 }
 
@@ -127,10 +129,10 @@ section h2 {
 
 .container {
   box-shadow: 8px 10px 5px #0003;
-  -webkit-box-shadow: 0px 2px 15px 9px #0003; 
+  -webkit-box-shadow: 0px 2px 15px 9px #0003;
   box-shadow: 0px 2px 15px 9px #0003;
   max-width: 50%;
-  color: white;  
+  color: white;
   border-radius: 5px;
   padding: 10px;
   margin: auto 5px;
@@ -190,8 +192,8 @@ section h2 {
 }
 
 /* segunda-secao */
-.segunda-secao {  
-  background: var(--color-5); 
+.segunda-secao {
+  background: var(--color-5);
   color: #fff;
 }
 
@@ -199,6 +201,7 @@ section h2 {
   text-align: center;
   font-size: 1.9rem;
 }
+
 .segunda-secao div {
   display: flex;
 }
@@ -214,15 +217,16 @@ ul {
   list-style-position: inside;
   padding: 0;
 }
+
 li {
   padding-left: 1.3em;
 }
 
 
-/* terceira-secao */ 
+/* terceira-secao */
 .terceira-secao {
-  background: rgb(91,55,79);
-  background: linear-gradient(0deg, rgba(91,55,79,1) 0%, rgba(11,48,57,1) 100%); 
+  background: rgb(91, 55, 79);
+  background: linear-gradient(0deg, rgba(91, 55, 79, 1) 0%, rgba(11, 48, 57, 1) 100%);
   color: #fff;
 }
 
@@ -232,9 +236,9 @@ li {
 
 .terceira-secao span {
   font-size: 1.5rem;
-} 
+}
 
-/* quinta-secao */ 
+/* quinta-secao */
 .quinta-secao {
   padding: 6rem 1rem;
   display: flex;
@@ -245,7 +249,7 @@ li {
   color: #000;
 }
 
-.quinta-secao p {  
+.quinta-secao p {
   line-height: 1.5rem;
   font-size: 1.5rem;
 }
@@ -290,8 +294,8 @@ li {
   display: flex;
   height: 45vh;
   margin: 1rem;
-  background: rgb(196,104,166);
-  background: linear-gradient(0deg, rgba(196,104,166,1) 0%, rgba(155,69,166,1) 100%); 
+  background: rgb(196, 104, 166);
+  background: linear-gradient(0deg, rgba(196, 104, 166, 1) 0%, rgba(155, 69, 166, 1) 100%);
   color: #fff;
   border: 2px solid rebeccapurple;
   border-radius: 10px;
@@ -305,12 +309,12 @@ li {
   width: 15vw;
   height: 100%;
   border: 1px solid rebeccapurple;
-  border-radius: 50%;  
+  /* border-radius: 50%;   */
 }
 
 .teacher-image img {
   width: 100%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .teacher-bio {
@@ -319,7 +323,7 @@ li {
   padding-top: 1rem;
 }
 
-.teacher-bio h3{  
+.teacher-bio h3 {
   margin: 5px;
 }
 
@@ -332,9 +336,60 @@ li {
   background: #fff;
 }
 
+.plans {
+  display: flex;
+  justify-content: center;
+}
+
+.nona-secao .card {
+  width: 20%;
+  margin: 0.5rem;
+  border-radius: 10px;
+  background: var(--color-5);
+}
+
+.nona-secao .card-header,
+.card-footer {
+  text-align: center;
+  height: 5rem;
+}
+
+.nona-secao .card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.nona-secao .card-header span {
+  color: #fff;
+  text-shadow: 2px 1px 0px #7A7A7A;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.nona-secao .card-body {
+  height: 15rem;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5 rem 0;
+}
+
+.nona-secao .card-footer {
+  height: 8rem;
+}
+
+.nona-secao .card button {
+  width: 80%;
+  font-size: 1.1rem;
+}
+
 .decima-secao {
-  background: rgb(217,128,156);
-  background: linear-gradient(90deg, rgba(217,128,156,1) 0%, rgba(223,92,131,1) 17%, rgba(224,86,127,1) 43%, rgba(247,68,121,1) 95%); 
+  background: rgb(217, 128, 156);
+  background: linear-gradient(90deg, rgba(217, 128, 156, 1) 0%, rgba(223, 92, 131, 1) 17%, rgba(224, 86, 127, 1) 43%, rgba(247, 68, 121, 1) 95%);
 }
 
 .decima-secao h2 {
@@ -347,7 +402,7 @@ li {
 .depoimentos {
   display: flex;
   justify-content: center;
-  background: var(--color-1); 
+  background: var(--color-1);
 }
 
 .depoimentos h2 {
@@ -395,8 +450,8 @@ li {
 .depoimento {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;  
-  grid-row-gap: 0px;  
+  grid-template-rows: 1fr;
+  grid-row-gap: 0px;
   width: 50%;
   margin: 1rem;
   padding: 0 1rem;
@@ -406,7 +461,7 @@ li {
 .depoimento-texto span {
   color: var(--main-color);
   font-weight: 500;
-  font-size: 1.1rem;  
+  font-size: 1.1rem;
 }
 
 .depoimento-texto {
@@ -456,18 +511,18 @@ li {
   padding: 2rem;
   text-align: center;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   color: #FFF;
-  background: rgba( 255, 255, 255, 0 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 0px );
-  -webkit-backdrop-filter: blur( 0px );
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
-  border: 2px solid rgba( 255, 255, 255, 0.18 );
+  border: 2px solid rgba(255, 255, 255, 0.18);
 }
 
 .metric:hover {
-  background: rgba( 255, 255, 255, 0.10 );
+  background: rgba(255, 255, 255, 0.10);
   opacity: 5;
   transition: ease-in-out 0.5s;
 }
@@ -492,11 +547,11 @@ li {
 .topics p {
   padding: 1rem;
   color: #FFF;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 5.5px );
-  -webkit-backdrop-filter: blur( 5.5px );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 
@@ -517,7 +572,7 @@ footer h2 {
   color: var(--title-color);
 }
 
-.footer-links{
+.footer-links {
   display: flex;
 }
 
@@ -586,10 +641,10 @@ footer input {
 
   .banner-content img,
   .banner-content span {
-    display: none;  
+    display: none;
   }
 
-  .banner-content h1 { 
+  .banner-content h1 {
     font-size: 2.5rem;
     color: #D984A3;
     text-shadow: 2px 2px 0px #644c4c;
@@ -600,9 +655,9 @@ footer input {
     font-size: 1.5rem;
     color: #FFF;
     max-width: 100%;
-    text-align: center;  
+    text-align: center;
   }
-  
+
   .banner-content button {
     width: 90vw;
   }
@@ -629,7 +684,7 @@ footer input {
 
   .segunda-secao div img {
     width: 80vw;
-    height: 30vh;      
+    height: 30vh;
   }
 
   .segunda-secao div ul {
@@ -651,7 +706,7 @@ footer input {
     max-width: 90%;
     display: block;
   }
-  
+
   .depoimento-cards .card {
     display: flex;
     width: 100%;
