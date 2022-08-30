@@ -36,7 +36,7 @@ button {
 
 button:hover {
   opacity: 1;
-  transition: 5ms ease-in-out;
+  transition: all 5ms ease-in-out;
 }
 
 p {
@@ -56,7 +56,6 @@ header {
   width: 100%;
   height: 60vh;
   display: flex;
-  /* justify-content: center; */
   background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(107, 9, 121, 1) 0%, rgba(199, 123, 157, 1) 0%, rgba(11, 48, 57, 1) 60%);
 }
 
@@ -66,11 +65,15 @@ img {
 }
 
 .banner-image {
-  width: 30%;
+  width: 35%;
+}
+
+.banner-image img {
+  src: url('assets/images/teachers.png');
 }
 
 .banner-content {
-  width: 70%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,6 +97,7 @@ img {
 
 .banner-content img {
   height: 5rem;
+
 }
 
 .banner-content h1 {
@@ -282,6 +286,7 @@ li {
 
 .setima-secao {
   background: #fff;
+  text-align: center;
 }
 
 .teachers {
@@ -339,6 +344,7 @@ li {
 .plans {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .nona-secao .card {
@@ -506,8 +512,8 @@ li {
 }
 
 .metric {
-  width: 300px;
-  height: 120px;
+  width: 350px;
+  height: 150px;
   padding: 2rem 1.5rem;
   text-align: center;
   display: flex;
@@ -533,8 +539,7 @@ li {
 
 .metric span {
   color: var(--text-color);
-  line-height: 140%;
-  font-size: 90%;
+  font-size: 1rem;
 }
 
 .metric .metric-title {
@@ -612,12 +617,12 @@ footer input {
   }
 
   p {
-    font-size: 10px;
+    font-size: 1rem;
   }
 
   button {
     width: 70vw;
-    height: 6vh;
+    height: 8vh;
   }
 
   ul li {
@@ -626,6 +631,7 @@ footer input {
 
   header {
     width: 100%;
+    height: 85vh;
     display: block;
     margin-top: 0;
   }
@@ -636,11 +642,6 @@ footer input {
 
   .banner-content {
     width: 100%;
-  }
-
-  .banner-content img,
-  .banner-content span {
-    display: none;
   }
 
   .banner-content h1 {
@@ -659,6 +660,12 @@ footer input {
 
   .banner-content button {
     width: 90vw;
+  }
+
+  .plans {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .primeira-secao p {
@@ -690,6 +697,10 @@ footer input {
     margin-top: 1rem;
   }
 
+  .terceira-secao p {
+    padding: 2rem;
+  }
+
   .metrics {
     display: flex;
     flex-direction: column;
@@ -699,6 +710,11 @@ footer input {
   .metric {
     align-items: center;
     justify-content: center;
+  }
+
+  .metric span {
+    font-size: 1rem;
+    padding: 0.5rem;
   }
 
   .depoimento-cards {
@@ -715,6 +731,56 @@ footer input {
   /* accordion */
   .container {
     max-width: 90%;
+  }
+
+  .teacher {
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    margin: 1rem;
+    background: rgb(196, 104, 166);
+    background: linear-gradient(0deg, rgba(196, 104, 166, 1) 0%, rgba(155, 69, 166, 1) 100%);
+    color: #fff;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+  }
+
+  .teacher p {
+    font-size: 1rem;
+  }
+
+  .teacher-image {
+    width: 50%;
+    height: 100%;
+    border: 1px solid rebeccapurple;
+    /* border-radius: 50%;   */
+  }
+
+  .teacher-image img {
+    width: 100%;
+    /* border-radius: 50%; */
+  }
+
+  .teacher-bio {
+    width: 100%;
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+
+  .teacher-bio h3 {
+    margin: 5px;
+  }
+
+  .nona-secao .card {
+    width: 80%;
+    margin: 0.5rem;
+    border-radius: 10px;
+    background: var(--color-5);
+  }
+
+  .nona-secao h2,
+  h3 {
+    text-align: center;
   }
 
   .decima-secao h2 {
