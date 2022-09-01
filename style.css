@@ -36,7 +36,7 @@ button {
 
 button:hover {
   opacity: 1;
-  transition: all 5ms ease-in-out;
+  transition: all 0.5ms ease;
 }
 
 p {
@@ -291,13 +291,38 @@ li {
 
 .teachers {
   width: 80%;
-  background: var(--color-1);
   border-radius: 10px;
+
+}
+
+.teachers .card {
+  width: 100%;
+  height: 425px;
+  display: flex;
+  margin-bottom: 1rem;
+  background: var(--color-5);
+}
+
+.teachers .card-header {
+  width: 32%;
+}
+
+.teachers .card-header img {
+  width: 100%;
+}
+
+.teachers .card-body {
+  width: 78%;
+  color: #000;
+}
+
+.teachers .card-body p {
+
+  max-width: 100%;
+  padding: 0px 1rem;
 }
 
 .teacher {
-  display: flex;
-  height: 45vh;
   margin: 1rem;
   background: rgb(196, 104, 166);
   background: linear-gradient(0deg, rgba(196, 104, 166, 1) 0%, rgba(155, 69, 166, 1) 100%);
@@ -306,20 +331,21 @@ li {
   border-radius: 10px;
 }
 
-.teacher p {
+/* .teachers p {
   font-size: 1rem;
+  max-width: 100%;
+  line-height: 1.2rem;
 }
 
 .teacher-image {
   width: 15vw;
-  height: 100%;
+  height: 20%;
   border: 1px solid rebeccapurple;
-  /* border-radius: 50%;   */
+  border-radius: 50%;
 }
 
 .teacher-image img {
   width: 100%;
-  /* border-radius: 50%; */
 }
 
 .teacher-bio {
@@ -330,7 +356,7 @@ li {
 
 .teacher-bio h3 {
   margin: 5px;
-}
+} */
 
 .oitava-secao {
   background: var(--color-5);
@@ -529,7 +555,7 @@ li {
 .metric:hover {
   background: rgba(255, 255, 255, 0.10);
   opacity: 5;
-  transition: ease-in-out 0.5s;
+  transition: all 0.5s ease-in-out;
 }
 
 .metric h1 {
