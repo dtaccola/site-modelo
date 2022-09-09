@@ -19,13 +19,13 @@ html {
 
 body {
   max-width: 100%;
-  /* height: 100vh; */
+  height: 100vh;
   background: var(--color-1);
 }
 
 button {
   width: 30%;
-  height: 15%;
+  height: 10vh;
   margin: 1.5rem 1rem;
   cursor: pointer;
   border: none;
@@ -107,7 +107,6 @@ img {
 
 .banner-content button {
   width: 30vw;
-
 }
 
 section {
@@ -338,22 +337,18 @@ li {
 }
 
 .plans {
+  max-width: 90%;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .nona-secao .card {
-  width: 20%;
-  margin: 0.5rem;
+  width: 24%;
   border-radius: 10px;
   background: var(--color-5);
-}
-
-.nona-secao .card-header,
-.card-footer {
-  text-align: center;
-  height: 5rem;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .nona-secao .card-header {
@@ -367,27 +362,37 @@ li {
   color: #fff;
   text-shadow: 2px 1px 0px #7A7A7A;
   font-family: 'Rubik Mono One', sans-serif;
+  padding: 1rem;
 }
 
-.nona-secao .card-body {
-  height: 15rem;
+.nona-secao .card .card-body {
+  text-align: justify;
+  padding: 1rem;
+}
+
+
+.nona-secao .card .card-body ul li {
+  text-align: start;
+  color: #fff;
 }
 
 .price {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1.5 rem 0;
+  margin: 1rem auto;
 }
 
 .nona-secao .card-footer {
-  height: 8rem;
+  display: flex;
+  justify-content: center;
 }
 
 .nona-secao .card button {
   width: 80%;
   font-size: 1.1rem;
 }
+
 
 .decima-secao {
   background: rgb(217, 128, 156);
@@ -556,8 +561,6 @@ li {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-
-
 footer {
   display: flex;
   flex-direction: column;
@@ -583,24 +586,6 @@ footer a {
   margin-right: 5px;
 }
 
-footer span {
-  color: var(--text-color);
-}
-
-footer form {
-  display: flex;
-  justify-content: space-between;
-}
-
-footer input {
-  outline: none;
-  border: 1px solid #D0D5DD;
-  border-radius: 0.5rem;
-  padding-left: 1rem;
-  width: 12rem;
-  margin-right: 1rem;
-}
-
 /* Responsividade */
 
 @media screen and (max-width: 920px) {
@@ -618,15 +603,6 @@ footer input {
     font-size: 1rem;
   }
 
-  button {
-    width: 80%;
-    height: 10%;
-  }
-
-  ul li {
-    font-size: 1rem;
-  }
-
   section p {
     line-height: 1.3rem;
   }
@@ -640,6 +616,11 @@ footer input {
     width: 100%;
     display: block;
 
+  }
+
+  button {
+    width: 80%;
+    height: 8vh;
   }
 
   .banner-image {
@@ -805,8 +786,6 @@ footer input {
   .teacher {
     display: flex;
     flex-direction: column;
-    /* height: 45vh; */
-    /* margin: 1rem; */
     background: rgb(196, 104, 166);
     background: linear-gradient(0deg, rgba(196, 104, 166, 1) 0%, rgba(155, 69, 166, 1) 100%);
     color: #fff;
@@ -844,11 +823,30 @@ footer input {
     text-align: center;
   }
 
+  .plans {
+    display: flex;
+    align-items: center;
+  }
+
   .nona-secao .card {
     width: 80%;
     margin: 0.5rem;
     border-radius: 10px;
     background: var(--color-5);
+  }
+
+  /* .nona-secao .card .card-body {
+    background: limegreen;
+  } */
+
+  .nona-secao .card .card-body ul {
+    padding: 1rem;
+  }
+
+  .nona-secao .card .card-body ul li {
+    font-size: 1.2rem;
+    text-align: start;
+    color: #fff;
   }
 
   .nona-secao h2,
