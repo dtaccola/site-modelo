@@ -345,6 +345,7 @@ li {
   width: 24%;
   border-radius: 10px;
   background: var(--color-5);
+  color: #fff;
   margin: 1%;
   display: flex;
   flex-direction: column;
@@ -359,7 +360,6 @@ li {
 }
 
 .nona-secao .card-header span {
-  color: #fff;
   text-shadow: 2px 1px 0px #7A7A7A;
   font-family: 'Rubik Mono One', sans-serif;
   padding: 1rem;
@@ -370,10 +370,13 @@ li {
   padding: 1rem;
 }
 
+.nona-secao .card .card-body ul {
+  text-align: start;
+  margin-bottom: 2rem;
+}
 
 .nona-secao .card .card-body ul li {
   text-align: start;
-  color: #fff;
 }
 
 .price {
