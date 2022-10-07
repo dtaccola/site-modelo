@@ -235,7 +235,7 @@ section {
 .ps-2 span {
   font-size: 2rem;
 }
-/* Cabeçalho - Primeira seção */
+/* Primeira seção */
 
 /* segunda-secao */
 .segunda-secao {
@@ -244,8 +244,7 @@ section {
 }
 
 .segunda-secao h2 {
-  font-size: 2.5rem;
-  font-family: l;
+  font-size: 2.5rem;  
   text-align: center;
   font-family: 'League Spartan', sans-serif;
 }
@@ -270,6 +269,8 @@ section {
 .ss-content p {
   font-size: 1rem;
 }
+/* segunda-secao */
+
 
 /* terceira-secao */
 .terceira-secao {
@@ -277,10 +278,48 @@ section {
   color: #fff;
 }
 
+.terceira-secao p {
+  max-width: 80%;
+}
 
 .terceira-secao span {
   font-size: 1.5rem;
 }
+/* terceira-secao */
+
+
+/* quarta-secao */
+.quarta-secao {
+  margin: 0 auto;
+  max-width: 90%;
+  color: #fff;
+}
+
+.quarta-secao h2 {
+  font-size: 2.5rem;  
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.qs-content {
+  display: flex; 
+  margin: 1rem; 
+}
+
+.qs-content-icon {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  padding: 1rem;
+}
+
+.qs-content-text {
+  display: flex;
+  justify-content: start;
+}
+
+/* quarta-secao */
+
 
 /* quinta-secao */
 .quinta-secao {
