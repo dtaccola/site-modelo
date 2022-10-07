@@ -67,12 +67,16 @@ header {
 
 img {
   max-width: 100%;
-
 }
 
-/* section p {
-  max-width: 80%;
-} */
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+li {
+  padding-left: 1.3em;
+}
 
 .banner-image img {
   src: url('assets/images/teachers.png');
@@ -127,6 +131,8 @@ section {
   gap: 1rem;
 }
 
+
+/* accordion  */
 .container {
   box-shadow: 8px 10px 5px #0003;
   -webkit-box-shadow: 0px 2px 15px 9px #0003;
@@ -180,9 +186,9 @@ section {
   padding-bottom: 1px;
   color: #000;
 }
+/* accordion  */
 
-
-/* Cabeçalho - Primeira seção */
+/* Primeira seção */
 .primeira-secao {
   background: var(--color-5);
   color: #fff;
@@ -233,34 +239,37 @@ section {
 
 /* segunda-secao */
 .segunda-secao {
-  background: var(--color-5);
+  background: var(--color-1);
   color: #fff;
 }
 
 .segunda-secao h2 {
+  font-size: 2.5rem;
+  font-family: l;
   text-align: center;
-  font-size: 1.9rem;
+  font-family: 'League Spartan', sans-serif;
 }
 
-.segunda-secao div {
+.ss-content {
   display: flex;
+  justify-content: center;
+  max-width: 95%;  
 }
 
-.segunda-secao div img {
-  width: 50vw;
-  height: 50vh;
-  margin: 1rem;
-}
+.ss-content-square {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(201,9,250);
+  background: linear-gradient(149deg, rgba(201,9,250,1) 0%, rgba(3,10,51,1) 100%);
+  width: 15%;
+  margin: 1.5rem;
+  padding: 1rem;
+  }
 
-ul {
-  list-style-position: inside;
-  padding: 0;
+.ss-content p {
+  font-size: 1rem;
 }
-
-li {
-  padding-left: 1.3em;
-}
-
 
 /* terceira-secao */
 .terceira-secao {
