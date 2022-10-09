@@ -317,7 +317,6 @@ section {
   display: flex;
   justify-content: start;
 }
-
 /* quarta-secao */
 
 
@@ -328,14 +327,43 @@ section {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  background: #fff;
-  color: #000;
+  background: var(--color-5);
+  color: #fff;
+}
+
+.quinta-secao-listas {
+  max-width: 80%;
+  display: flex;
+}
+
+.quinta-secao-listas ul {
+  list-style-position: inside;
+  list-style: none;
+  width: 30%;
+  display: block;  
+  /* border: 1px solid lime; */
+  margin: 1rem;
+  font-size: 1.1rem;
+}
+
+.quinta-secao-listas ul li {
+  /* border: 1px solid red; */
+  margin: 1rem;
+  font-size: 1.1rem;
+}
+
+.quinta-secao h2 {
+  font-size: 2.5rem;  
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
 }
 
 .quinta-secao p {
+  max-width: 80%;
   line-height: 1.5rem;
   font-size: 1.5rem;
 }
+/* quinta secao */
 
 .sexta-secao {
   background: var(--color-5);
