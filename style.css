@@ -55,10 +55,6 @@ p {
   font-size: 1.5rem;
 }
 
-ul li {
-  margin-bottom: 5px;
-}
-
 header {
   width: 100%;
   display: flex;
@@ -67,15 +63,6 @@ header {
 
 img {
   max-width: 100%;
-}
-
-ul {
-  list-style-position: inside;
-  padding: 0;
-}
-
-li {
-  padding-left: 1.3em;
 }
 
 .banner-image img {
@@ -264,7 +251,7 @@ section {
   width: 15%;
   margin: 1.5rem;
   padding: 1rem;
-  }
+}
 
 .ss-content p {
   font-size: 1rem;
@@ -322,11 +309,6 @@ section {
 
 /* quinta-secao */
 .quinta-secao {
-  padding: 6rem 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
   background: var(--color-5);
   color: #fff;
 }
@@ -337,17 +319,28 @@ section {
 }
 
 .quinta-secao-listas ul {
+  margin-top: 3rem;
   list-style-position: inside;
   list-style: none;
-  width: 30%;
-  display: block;  
-  margin: 1rem;
-  font-size: 1.1rem;
+  width: 90%;
+  font-size: 1.2rem;
 }
 
 .quinta-secao-listas ul li {
-  margin: 1rem;
-  font-size: 1.1rem;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.quinta-secao-listas ul > li > i {
+  color: green;
+  margin-left: 2px;
+}
+
+.quinta-secao-listas ul > li > span {
+  padding: 0.5rem;
 }
 
 .quinta-secao h2 {
