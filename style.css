@@ -375,131 +375,6 @@ section {
 /* sexta secao */
 
 
-.setima-secao {
-  background: #fff;
-  text-align: center;
-}
-
-.teachers {
-  width: 90%;
-  border-radius: 10px;
-}
-
-.teachers .card {
-  display: flex;
-  margin-bottom: 1rem;
-  border-radius: 10px;
-  background: linear-gradient(0deg, rgba(91, 55, 79, 1) 0%, rgba(11, 48, 57, 1) 100%)
-}
-
-.teachers .card .card-header {
-  width: 25%;
-}
-
-.teachers .card .card-header img {
-  border-radius: 10px 0 0 10px;
-}
-
-.teachers .card .card-body {
-  width: 70%;
-  color: #fff;
-  padding: 1rem;
-  text-align: initial;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.teachers .card .card-body h2 {
-  margin: 10px auto;
-}
-
-.teachers .card .card-body p {
-  font-size: 1.2rem;
-  width: 100%;
-}
-
-.oitava-secao {
-  background: var(--color-5);
-  color: #fff;
-}
-
-.nona-secao {
-  background: var(--color-1);
-  color: #fff;
-}
-
-.plans {
-  max-width: 90%;
-  display: flex;
-}
-
-.nona-secao .card {
-  width: 24%;
-  border-radius: 10px;
-  background: var(--color-5);
-  color: #fff;
-  margin: 1%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.nona-secao .card-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-}
-
-.nona-secao .card-header span {
-  text-shadow: 2px 1px 0px #7A7A7A;
-  font-family: 'Rubik Mono One', sans-serif;
-  padding: 1rem;
-}
-
-.nona-secao .card .card-body {
-  text-align: justify;
-  padding: 1rem;
-}
-
-.nona-secao .card .card-body {
-  text-align: start;
-  margin-bottom: 2rem;
-}
-
-.nona-secao .card .card-body ul li {
-  text-align: start;
-}
-
-.price {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1rem auto;
-}
-
-.nona-secao .card-footer {
-  display: flex;
-  justify-content: center;
-}
-
-.nona-secao .card button {
-  width: 80%;
-  font-size: 1.1rem;
-}
-
-
-.decima-secao {
-  background: rgb(217, 128, 156);
-  background: linear-gradient(90deg, rgba(217, 128, 156, 1) 0%, rgba(223, 92, 131, 1) 17%, rgba(224, 86, 127, 1) 43%, rgba(247, 68, 121, 1) 95%);
-}
-
-.decima-secao h2 {
-  color: #fff;
-  font-size: 2rem;
-}
-
 
 /* Seção de depoimentos */
 .depoimentos {
@@ -507,10 +382,14 @@ section {
   justify-content: center;
   text-align: center;
   background: var(--color-5);
+  color: #fff;
 }
 
 .depoimentos h2 {
-  color: #fff;
+  margin-bottom: 4rem;
+  font-size: 2.5rem;  
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
 }
 
 .depoimento-cards {
@@ -591,14 +470,193 @@ section {
   max-width: 70%;
   max-height: 75%;
 }
+/* depoimentos */
 
-.depoimento h2 {
-  color: var(--title-color);
-  font-weight: 500;
+
+/* setima-secao */
+.setima-secao {
+  background: var(--color-1);
+  color: #fff;
   text-align: center;
-  max-width: 70%;
-  margin: 2rem 0;
 }
+
+.setima-secao h2 {
+  font-size: 2.5rem;  
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.teacher-portraits {
+  display: flex;
+  flex-direction: column;
+  max-width: 85%;
+}
+
+.portrait {
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem;
+}
+
+.portrait-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.portrait-description {
+  display: flex;
+  flex-direction: column;  
+  text-align: start;
+  width: 60%;
+}
+
+.portrait-description p {
+  font-size: 1.3rem;
+}
+
+.portrait-description span {
+  margin: 0 5px;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+/* setima-secao */
+
+/* oitava secao  */
+.oitava-secao {
+  background: var(--color-5);
+  color: #fff;
+}
+
+.oitava-secao h2 {
+  font-size: 2.5rem;  
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.modalidades {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.modalidade {
+  display: flex;
+  width: 450px;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 1rem 1rem;
+  -webkit-box-shadow: 0px 2px 8px 2px #fff; 
+  box-shadow: 0px 2px 8px 2px #fff;
+}
+
+.modalidade span {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.modalidade p {
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+/* oitava secao  */
+
+/* nona secao  */
+.nona-secao {
+  background: var(--color-1);
+  color: #fff;
+}
+
+.nona-secao h2 {
+  font-size: 2.5rem;  
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.nona-secao ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.plans {
+  max-width: 90%;
+  display: flex;
+}
+
+.nona-secao .card {
+  width: 24%;
+  border-radius: 10px;
+  background: var(--color-5);
+  color: #fff;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-box-shadow: 0px 2px 8px 2px #fff; 
+  box-shadow: 0px 1px 8px 1px #fff;
+}
+
+.nona-secao .card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.nona-secao .card-header span {
+  text-shadow: 2px 1px 0px #7A7A7A;
+  font-family: 'Rubik Mono One', sans-serif;
+  padding: 1rem;
+}
+
+.nona-secao .card .card-body {
+  text-align: justify;
+  padding: 1rem;
+}
+
+.nona-secao .card .card-body {
+  text-align: start;
+  margin-bottom: 2rem;
+}
+
+.nona-secao .card .card-body ul li {
+  text-align: start;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem auto;
+}
+
+.nona-secao .card-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.nona-secao .card button {
+  width: 80%;
+  font-size: 1.1rem;
+}
+
+/* nona secao  */
+
+
+.decima-secao {
+  background: rgb(217, 128, 156);
+  background: linear-gradient(90deg, rgba(217, 128, 156, 1) 0%, rgba(223, 92, 131, 1) 17%, rgba(224, 86, 127, 1) 43%, rgba(247, 68, 121, 1) 95%);
+}
+
+.decima-secao h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+
+
 
 
 
