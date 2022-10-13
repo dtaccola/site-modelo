@@ -815,6 +815,10 @@ footer a {
     height: 10vh;
     width: 70vw;
   }
+
+  .ps-2 span {
+    font-size: 1.5rem;
+  }
 /* primeira seção */
 
 /* segunda secao */
@@ -874,6 +878,10 @@ footer a {
 
 
 /* quarta-secao */
+  .quarta-secao h2 {
+    margin-bottom: 2rem;
+  }
+
   .qs-content {  
     flex-direction: column;     
   }
@@ -886,7 +894,7 @@ footer a {
 
   .qs-content-text {
     display: flex;
-    justify-content: start;
+    text-align: justify;
   }
 /* quarta-secao */
 
@@ -909,7 +917,26 @@ footer a {
     width: 100%;
     font-size: 1.2rem;
   }
+
+  .quinta-secao p {
+    max-width: 80%;
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+  }
 /* quinta-secao */
+
+/* sexta-secao */
+  .sexta-secao h2 {
+    margin-bottom: 0;
+  }
+
+  .sexta-secao p {
+    margin: 2rem;
+    max-width: 95%;
+  }
+/* sexta-secao */
+
 
   .depoimento-cards {
     max-width: 90%;
