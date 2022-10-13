@@ -1016,6 +1016,11 @@ footer a {
     font-family: 'League Spartan', sans-serif;
   }
 
+  .nona-secao h3 {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
   .plans {
     max-width: 90%;
     display: flex;
