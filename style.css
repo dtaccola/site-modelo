@@ -748,37 +748,13 @@ footer a {
   }
 }
 
-@media screen and (max-width: 850px) {
-  * {
-    max-width: 100%;
-  }
+@media screen and (max-width: 600px) {
 
-  p {
-    font-size: 1rem;
-  }
-
-  section {
-    padding: 1rem;
-  }
-
-  section p {
-    line-height: 1.3rem;
-  }
-
-  section h2 {
-    max-width: 90%;
-    text-transform: uppercase;
-  }
-
+/* header */
   header {
-    width: 100%;
     display: block;
   }
 
-  button {
-    width: 80%;
-    height: 8vh;
-  }
 
   .banner-image {
     width: 100%;
@@ -787,7 +763,6 @@ footer a {
 
   .banner-content {
     width: 100%;
-    padding: 1.5rem 0.5rem;
     background: var(--color-1);
   }
 
@@ -805,10 +780,42 @@ footer a {
     text-align: center;
   }
 
+  .banner-content span {
+    font-size: 1rem;
+  }
+
   .banner-content button {
     width: 90vw;
     height: 8vh;
   }
+
+  .ps-1 {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .ps-1-title {
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .ps-1-content {
+    width: 100%;
+  }
+
+  .ps-1-content p {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .ps-2 button {
+    background: rgb(242, 72, 122);
+    border-radius: 50px;
+    height: 10vh;
+    width: 70vw;
+  }
+  /* header */
 
   .plans {
     display: flex;
