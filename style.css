@@ -1017,8 +1017,8 @@ footer a {
   }
 
   .nona-secao h3 {
-    max-width: 70%;
-    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
   }
 
   .plans {
