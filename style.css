@@ -817,6 +817,7 @@ footer a {
   }
 /* primeira seção */
 
+/* segunda secao */
   .segunda-secao h2 {
     font-family: 'League Spartan', sans-serif;
     margin-bottom: 2rem;
@@ -870,9 +871,45 @@ footer a {
     padding: 0.5rem;
   }
 /* terceira-secao */
+
+
+/* quarta-secao */
+  .qs-content {  
+    flex-direction: column;     
+  }
+
+  .qs-content-icon {        
+    justify-content: center;
+    font-size: 5rem;
+    padding: 1rem;
+  }
+
+  .qs-content-text {
+    display: flex;
+    justify-content: start;
+  }
+/* quarta-secao */
+
+
+/* quinta-secao */
   .quinta-secao h2 {
     text-align: center;
   }
+
+  .quinta-secao-listas {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .quinta-secao-listas ul {
+    margin: 0;
+    list-style-position: inside;
+    list-style: none;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+/* quinta-secao */
 
   .depoimento-cards {
     max-width: 90%;
