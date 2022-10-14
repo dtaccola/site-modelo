@@ -221,7 +221,6 @@ section {
 }
 
 .ps-2 button {
-  /* background: rgb(242, 72, 122); */
   background: var(--rosa-medio);
   border-radius: 50px;
   height: 15vh;
@@ -714,7 +713,6 @@ footer a {
     display: block;
   }
 
-
   .banner-image {
     width: 100%;
     margin-bottom: -5px;
@@ -769,7 +767,6 @@ footer a {
   }
 
   .ps-2 button {
-    background: rgb(242, 72, 122);
     border-radius: 50px;
     height: 10vh;
     width: 70vw;
