@@ -930,10 +930,6 @@ footer a {
     gap: 2rem;
   }
 
-  .swiper-slide .card {
-    background: var(--color-1);    
-  }
-
   .swiper-slide .card-header {
     margin: 0 auto;
     width: 10rem;
@@ -950,11 +946,6 @@ footer a {
     padding: 1rem;
   }
 
-  .videos iframe {
-    max-width: 90%;
-    margin-bottom: 1rem;
-    border: 1px solid black;
-  }
 /* secao-depoimentos */
 
 /* accordion */
