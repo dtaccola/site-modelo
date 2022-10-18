@@ -73,6 +73,18 @@ img {
   max-width: 100%;
 }
 
+.swiper {
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  background: var(--color-1);
+}
+
+#prev, #next {
+  color: var(--color-4);
+}
+
+
 .banner-image img {
   src: url('assets/images/teachers.png');
   height: auto;  
@@ -711,6 +723,11 @@ footer a {
 /* primeira seção */
   header {
     display: block;
+  }
+
+  .swiper {
+    height: 250px;
+    width: 80%;
   }
 
   .banner-image {

@@ -9,12 +9,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600=Barlow:wght@100&family=League+Spartan:wght@500;700&family=Montserrat&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Barlow:wght@100&family=League+Spartan:wght@500;700&family=Montserrat&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
+
+  <!-- swiper -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <script src="script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
   <title>Bridge | ELT</title>
 </head>
 
@@ -268,24 +280,41 @@
         </div>
       </div>      
     </div>
+<!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <video width="85%" height="100%" controls>
+            <source src="assets/videos/dep-denise.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="swiper-slide">
+          <video width="85%" height="100%" controls>
+            <source src="assets/videos/dep-rob.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="swiper-slide">
+          <video width="85%" height="100%" controls>
+            <source src="assets/videos/dep-kaue.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="swiper-slide">
+          <video width="85%" height="100%" controls>
+            <source src="assets/videos/dep-tiago.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
 
-    <div class="videos">
-      <iframe width="560" height="315" src="assets/videos/dep-denise.mp4" title="video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-      <iframe width="560" height="315" src="assets/videos/dep-kaue.mp4" title="video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-      <iframe width="560" height="315" src="assets/videos/dep-rob.mp4" title="video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-      <iframe width="560" height="315" src="assets/videos/dep-tiago.mp4" title="video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev" id="prev"></div>
+      <div class="swiper-button-next" id="next"></div>
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
     </div>
     <div class="ps-2">
       <button type="button">
@@ -632,8 +661,6 @@
     </div>
     <form>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 
 </html>
