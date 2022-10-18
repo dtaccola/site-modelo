@@ -432,12 +432,11 @@ section {
   margin: 0 auto;
   width: 10rem;
   height: 100%;
-  /* border: 1px solid orange; */
 }
 
 .swiper-slide .card-header img {
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid var(--color-4);
   height: 10rem;
 }
 
@@ -447,11 +446,9 @@ section {
 
 .stars {
   margin: 0.5rem;
-}
-
-.fa-solid {
   color: gold;
 }
+
 /* depoimentos */
 
 
@@ -936,9 +933,7 @@ footer a {
     height: 10rem;
   }
 
-  .swiper-slide .card-header img {
-    border-radius: 50%;
-    border: 5px solid white;
+  .swiper-slide .card-header img {   
     height: 100%;
   }
 
