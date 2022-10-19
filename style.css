@@ -436,7 +436,7 @@ section {
 
 .swiper-slide .card-header img {
   border-radius: 50%;
-  border: 5px solid var(--color-4);
+  border: 3px solid #fff;
   height: 10rem;
 }
 
@@ -555,73 +555,59 @@ section {
   font-family: 'League Spartan', sans-serif;
 }
 
-.nona-secao ul {
-  list-style: none;
-  padding: 1rem;
-}
-
 .plans {
+  margin-top: 3rem;
   max-width: 90%;
-  display: flex;
+  display: flex;  
+  justify-content: center;
 }
 
-.nona-secao .card {
-  width: 24%;
+.plan {
   border-radius: 10px;
-  background: var(--color-5);
-  color: #fff;
-  margin: 1%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;  
+  background: var(--color-5);
+  margin: 0 1rem;
   -webkit-box-shadow: 0px 2px 8px 2px #fff; 
   box-shadow: 0px 1px 3px 1px var(--rosa-medio);
+  width: 25%;
 }
 
-.nona-secao .card-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-}
-
-.nona-secao .card-header span {
-  text-shadow: 2px 1px 0px #7A7A7A;
+.plan h3 {  
+  margin: 1rem;
   font-family: 'Rubik Mono One', sans-serif;
-  padding: 1rem;
+  text-shadow: 2px 1px 0px #7A7A7A;
+  text-transform: uppercase;
 }
 
-.nona-secao .card .card-body {
-  text-align: justify;
-  padding: 1rem;
-}
-
-.nona-secao .card .card-body {
-  text-align: start;
-  margin-bottom: 2rem;
-}
-
-.nona-secao .card .card-body ul li {
-  text-align: start;
-}
-
-.price {
+.plan-content {  
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 1rem auto;
 }
 
-.nona-secao .card-footer {
-  display: flex;
-  justify-content: center;
+.plan-content ul {
+  list-style: none;  
+  margin-bottom: 1rem;
+  padding: 0 1.5rem;
 }
 
-.nona-secao .card button {
-  width: 80%;
-  font-size: 1.1rem;
+.plan-content ul > li {  
+  text-align: start;
+  font-family: 'Rubik Mono One', sans-serif;
 }
 
+.plan-content span {
+  padding: 0 1rem;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.plan button {  
+  font-size: 1rem;
+  width: 90%;
+}
 /* nona secao  */
 
 
@@ -1042,11 +1028,24 @@ footer a {
   }
 
   .plans {
-    max-width: 90%;
-    display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
+  }
+
+  .plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+    width: 100%;
+    margin: 0;    
+    width: 70%;
+  }
+
+  .plan button {  
+    font-size: 1rem;
+    width: 90%;
+    height: 8vh;
   }
 
   .nona-secao .card {
