@@ -787,8 +787,13 @@ footer a {
     font-size: 1rem;
   }
 
+  button {
+    width: 90%;
+    height: 8vh;
+  }
+
   .banner-content button {
-    width: 90vw;
+    width: 90%;
     height: 8vh;
   }
 
@@ -810,12 +815,6 @@ footer a {
   .ps-1-content p {
     padding: 0.5rem;
     font-size: 1.5rem;
-  }
-
-  .ps-2 button {
-    border-radius: 50px;
-    height: 10vh;
-    width: 70vw;
   }
 
   .ps-2 span {
