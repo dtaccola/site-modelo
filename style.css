@@ -449,16 +449,17 @@ div.swiper-button-next {
    color: var(--color-4);
 }
 
-  .swiper-pagination-bullet {
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    line-height: 20px;
-    font-size: 12px;
-    color: #000;
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.2);
-  }
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+  /* border: 1px solid red; */
+}
 
 .swiper-pagination-bullet-active {
   background: var(--color-4) !important;
@@ -476,12 +477,15 @@ div.swiper-button-next {
   margin: 0 auto;
   width: 10rem;
   height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .swiper-slide .card-header img {
   border-radius: 50%;
   border: 3px solid #fff;
   height: 10rem;
+  object-fit: cover;
 }
 
 .swiper-slide .card-body {
@@ -491,6 +495,12 @@ div.swiper-button-next {
 .stars {
   margin: 0.5rem;
   color: gold;
+}
+
+video {
+  width: 85%; 
+  height: 100%;
+  padding: 2rem;
 }
 
 /* depoimentos */
@@ -1022,7 +1032,7 @@ footer a {
     align-items: center;
     padding: 1rem;
   }
-  
+
   .portrait-description {
     display: flex;
     flex-direction: column;  
