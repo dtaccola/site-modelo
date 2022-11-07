@@ -438,8 +438,46 @@ section {
   display: flex;
   justify-content: center;
   text-align: center;
-  background: var(--color-5);
+  background: #e6b5b8;
   color: #fff;
+}
+
+.depoimento-escrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
+  width: 50%;
+  padding: 1rem;
+  margin: 2rem;
+  background: var(--color-1);
+}
+
+.depoimento-imagem {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  overflow: hidden; 
+  margin-top: -5rem; 
+}
+
+.depoimento-stars {
+  color: gold;
+  margin: 1.5rem;
+}
+
+.depoimento-stars i {
+  font-size: 1.5rem;
+}
+
+.depoimento-conteudo {
+  font-size: 1.3rem;
+  text-align: start;
+  padding: 1.5rem;
+}
+
+.depoimento-nome {  
+  margin: 1rem;
 }
 
 .depoimentos button {
@@ -454,13 +492,6 @@ section {
   font-family: 'League Spartan', sans-serif;
 }
 
-.depoimento-cards {
-  max-width: 90%;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding: 1rem;
-}
 
 .swiper {
   width: 600px;
