@@ -3,7 +3,8 @@
   --color-2: #334a5c;
   --color-3: #6f5771;
   --color-4: #b06584;
-  --color-5: linear-gradient(0deg, rgba(226, 189, 202, 1) 1%, rgba(227, 131, 159, 1) 100%);
+  /* --color-5: linear-gradient(0deg, rgba(226, 189, 202, 1) 1%, rgba(227, 131, 159, 1) 100%); */
+  --color-5: #b06583;
   --color-6: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(107, 9, 121, 1) 0%, rgba(199, 123, 157, 1) 0%, rgba(11, 48, 57, 1) 60%)
   --color-7: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 
@@ -80,7 +81,7 @@ img {
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
+  border: 1px solid var(--color-1); /* Remove borders */
   outline: none; /* Remove outline */
   background: var(--color-4); /* Set a background color */
   color: fff; /* Text color */
@@ -438,7 +439,7 @@ section {
   display: flex;
   justify-content: center;
   text-align: center;
-  background: #e6b5b8;
+  background: var(--color-5);
   color: #fff;
 }
 
@@ -605,8 +606,7 @@ video {
   display: flex;
   flex-direction: column;  
   text-align: start;
-  width: 60%;
-  padding: 1rem;
+  width: 60%;  
 }
 
 .portrait-description p {
@@ -714,6 +714,7 @@ video {
 .plan-content {  
   display: flex;
   flex-direction: column;
+  line-height: 1.8;
 }
 
 .plan-content ul {
@@ -725,6 +726,7 @@ video {
 .plan-content ul > li {  
   text-align: start;
   font-family: 'Rubik Mono One', sans-serif;
+  line-height: 1.8;
 }
 
 .plan-content span {
