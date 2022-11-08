@@ -495,9 +495,9 @@ section {
 
 
 .swiper {
-  width: 600px;
-  height: 300px;
-  border-radius: 10px;
+  width: 50%;
+  height: 30rem;
+  border-radius: 2rem;
   background: var(--color-1);
 }
 
@@ -555,7 +555,7 @@ div.swiper-button-next {
 }
 
 video {
-  width: 85%; 
+  width: 100%; 
   height: 100%;
   padding: 2rem;
 }
@@ -864,7 +864,7 @@ footer a {
 
   .swiper {
     height: 350px;
-    width: 80%;
+    width: 90%;
   }
 
   .banner-image {
