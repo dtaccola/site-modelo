@@ -3,8 +3,8 @@
   --color-2: #334a5c;
   --color-3: #6f5771;
   --color-4: #b06584;
-  /* --color-5: linear-gradient(0deg, rgba(226, 189, 202, 1) 1%, rgba(227, 131, 159, 1) 100%); */
-  --color-5: #b06583;
+  --color-5: linear-gradient(0deg, rgba(226, 189, 202, 1) 1%, rgba(227, 131, 159, 1) 100%);
+  /* --color-5: #d58097; */
   --color-6: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(107, 9, 121, 1) 0%, rgba(199, 123, 157, 1) 0%, rgba(11, 48, 57, 1) 60%)
   --color-7: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 
@@ -46,10 +46,10 @@ button {
   height: 10vh;
   margin: 1.5rem 1rem;
   cursor: pointer;
-  border: none;
+  /* border: 1px solid white; */
   border-radius: 9px;
   font-size: 1.5rem;
-  background: rgb(217, 132, 163);
+  /* background: var(--rosa-escuro); */
   background: linear-gradient(90deg, rgba(217, 132, 163, 1) 0%, rgba(236, 79, 149, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(107, 9, 121, 1) 100%);
   color: #fff;
   opacity: 0.9;
@@ -57,7 +57,7 @@ button {
 }
 
 button:hover {
-  opacity: 1;
+  background: var(--rosa-medio);
   transition: all 0.5ms ease;
 }
 
@@ -594,6 +594,7 @@ video {
   height: 250px;
   border-radius: 50%;
   overflow: hidden;
+  margin: 1.5rem;
 }
 
 .portrait-image img {
