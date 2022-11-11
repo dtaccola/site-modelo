@@ -46,11 +46,11 @@ button {
   height: 10vh;
   margin: 1.5rem 1rem;
   cursor: pointer;
-  /* border: 1px solid white; */
+  border: none;
   border-radius: 9px;
   font-size: 1.5rem;
-  /* background: var(--rosa-escuro); */
-  background: linear-gradient(90deg, rgba(217, 132, 163, 1) 0%, rgba(236, 79, 149, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(107, 9, 121, 1) 100%);
+  /* background: linear-gradient(90deg, rgba(217, 132, 163, 1) 0%, rgba(236, 79, 149, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(107, 9, 121, 1) 100%); */
+  background: rgba(236, 79, 149, 1); 
   color: #fff;
   opacity: 0.9;
   font-family: 'Barlow', sans-serif;
@@ -451,6 +451,7 @@ section {
   width: 50%;
   padding: 1rem;
   margin: 2rem;
+  margin-bottom: 10rem;
   background: var(--color-1);
 }
 
@@ -459,7 +460,7 @@ section {
   height: 15rem;
   border-radius: 50%;
   overflow: hidden; 
-  margin-top: -5rem; 
+  margin-top: -8rem; 
 }
 
 .depoimento-stars {
@@ -487,7 +488,7 @@ section {
 }
 
 .depoimentos h2 {
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
   font-size: 2.5rem;  
   text-align: center;
   font-family: 'League Spartan', sans-serif;
@@ -841,7 +842,9 @@ footer a {
 }
 
 @media screen and (max-width: 600px) {
-
+:root {
+  --color-5: rgba(227, 131, 159, 1);
+}
 /* primeira seção */
   header {
     display: block;
