@@ -5,8 +5,7 @@
   --color-4: #b06584;
   --color-5: linear-gradient(0deg, rgba(226, 189, 202, 1) 1%, rgba(227, 131, 159, 1) 100%);
   /* --color-5: #d58097; */
-  --color-6: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(107, 9, 121, 1) 0%, rgba(199, 123, 157, 1) 0%, rgba(11, 48, 57, 1) 60%)
-  --color-7: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  --color-6: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(107, 9, 121, 1) 0%, rgba(199, 123, 157, 1) 0%, rgba(11, 48, 57, 1) 60%) --color-7: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 
   --azul-muito-escuro: #0b3039;
   --azul-menos-escuro: #2b4252;
@@ -50,7 +49,7 @@ button {
   border-radius: 9px;
   font-size: 1.5rem;
   /* background: linear-gradient(90deg, rgba(217, 132, 163, 1) 0%, rgba(236, 79, 149, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(107, 9, 121, 1) 100%); */
-  background: rgba(236, 79, 149, 1); 
+  background: rgba(236, 79, 149, 1);
   color: #fff;
   opacity: 0.9;
   font-family: 'Barlow', sans-serif;
@@ -68,6 +67,7 @@ p {
 header {
   width: 100%;
   display: flex;
+  justify-content: center;
   background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(107, 9, 121, 1) 0%, rgba(199, 123, 157, 1) 0%, rgba(11, 48, 57, 1) 60%);
 }
 
@@ -76,18 +76,30 @@ img {
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: 1px solid var(--color-1); /* Remove borders */
-  outline: none; /* Remove outline */
-  background: var(--color-4); /* Set a background color */
-  color: fff; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 50%; /* Rounded corners */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: 1px solid var(--color-1);
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background: var(--color-4);
+  /* Set a background color */
+  color: fff;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 50%;
+  /* Rounded corners */
   width: 5%;
   height: 10vh;
   margin: 0;
@@ -97,17 +109,18 @@ img {
 }
 
 #myBtn:hover {
-  background-color: var(--color-3); /* Add a dark-grey background on hover */
+  background-color: var(--color-3);
+  /* Add a dark-grey background on hover */
 }
 
 .banner-image img {
   src: url('assets/images/teachers.png');
-  height: auto;  
+  height: auto;
   margin-bottom: -4px;
 }
 
 .banner-content {
-  width: 65%;
+  /* width: 65%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -169,7 +182,7 @@ section {
 .content {
   display: flex;
   flex-direction: column;
-  gap: 10px;  
+  gap: 10px;
 }
 
 .accordion_item {
@@ -207,6 +220,7 @@ section {
 .active {
   padding-bottom: 1px;
 }
+
 /* accordion  */
 
 /* Primeira seção */
@@ -250,6 +264,7 @@ section {
 .ps-2 span {
   font-size: 2rem;
 }
+
 /* Primeira seção */
 
 /* segunda-secao */
@@ -259,7 +274,7 @@ section {
 }
 
 .segunda-secao h2 {
-  font-size: 2.5rem;  
+  font-size: 2.5rem;
   text-align: center;
   font-family: 'League Spartan', sans-serif;
 }
@@ -267,7 +282,7 @@ section {
 .ss-content {
   display: flex;
   justify-content: center;
-  max-width: 95%;  
+  max-width: 95%;
 }
 
 .ss-content-square {
@@ -298,6 +313,7 @@ section {
 .segunda-secao button {
   margin-bottom: 0;
 }
+
 /* segunda-secao */
 
 
@@ -314,6 +330,7 @@ section {
 .terceira-secao span {
   font-size: 1.5rem;
 }
+
 /* terceira-secao */
 
 
@@ -325,14 +342,14 @@ section {
 }
 
 .quarta-secao h2 {
-  font-size: 2.5rem;  
+  font-size: 2.5rem;
   text-align: center;
   font-family: 'League Spartan', sans-serif;
 }
 
 .qs-content {
-  display: flex; 
-  margin: 1rem; 
+  display: flex;
+  margin: 1rem;
 }
 
 .qs-content-icon {
@@ -350,6 +367,7 @@ section {
 .quarta-secao button {
   margin-bottom: 0;
 }
+
 /* quarta-secao */
 
 
@@ -380,17 +398,17 @@ section {
   margin-bottom: 5px;
 }
 
-.quinta-secao-listas ul > li > img {
+.quinta-secao-listas ul>li>img {
   margin-left: 2px;
   width: 30px;
 }
 
-.quinta-secao-listas ul > li > span {
+.quinta-secao-listas ul>li>span {
   padding: 0.5rem;
 }
 
 .quinta-secao h2 {
-  font-size: 2.5rem;  
+  font-size: 2.5rem;
   text-align: center;
   font-family: 'League Spartan', sans-serif;
 }
@@ -405,6 +423,7 @@ section {
 .quinta-secao button {
   margin: 0;
 }
+
 /* quinta secao */
 
 /* sexta secao */
@@ -422,7 +441,7 @@ section {
 }
 
 .sexta-secao h2 {
-  font-size: 2.5rem;  
+  font-size: 2.5rem;
   text-align: center;
   font-family: 'League Spartan', sans-serif;
   margin-bottom: 1rem;
@@ -431,6 +450,7 @@ section {
 .sexta-secao p {
   max-width: 80%;
 }
+
 /* sexta secao */
 
 
@@ -459,8 +479,8 @@ section {
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
-  overflow: hidden; 
-  margin-top: -8rem; 
+  overflow: hidden;
+  margin-top: -8rem;
 }
 
 .depoimento-stars {
@@ -478,7 +498,7 @@ section {
   padding: 1.5rem;
 }
 
-.depoimento-nome {  
+.depoimento-nome {
   margin: 1rem;
 }
 
@@ -489,7 +509,7 @@ section {
 
 .depoimentos h2 {
   margin-bottom: 10rem;
-  font-size: 2.5rem;  
+  font-size: 2.5rem;
   text-align: center;
   font-family: 'League Spartan', sans-serif;
 }
@@ -504,7 +524,7 @@ section {
 
 div.swiper-button-prev,
 div.swiper-button-next {
-   color: var(--color-4);
+  color: var(--color-4);
 }
 
 .swiper-pagination-bullet {
@@ -523,7 +543,7 @@ div.swiper-button-next {
   background: var(--color-4) !important;
 }
 
-.swiper-slide .card{
+.swiper-slide .card {
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -556,7 +576,7 @@ div.swiper-button-next {
 }
 
 video {
-  width: 100%; 
+  width: 100%;
   height: 100%;
   padding: 2rem;
 }
@@ -572,7 +592,7 @@ video {
 }
 
 .setima-secao h2 {
-  font-size: 2.5rem;  
+  font-size: 2.5rem;
   text-align: center;
   font-family: 'League Spartan', sans-serif;
 }
@@ -596,19 +616,22 @@ video {
   border-radius: 50%;
   overflow: hidden;
   margin: 1.5rem;
+  /* border: 1px solid red; */
 }
 
 .portrait-image img {
   width: 100%;
   height: auto;
+  /* border: 1px solid blue; */
+
   object-fit: cover;
 }
 
 .portrait-description {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   text-align: start;
-  width: 60%;  
+  width: 60%;
 }
 
 .portrait-description p {
@@ -626,6 +649,7 @@ video {
   margin-top: 2rem;
   margin-bottom: 0;
 }
+
 /* setima-secao */
 
 /* oitava secao  */
@@ -635,7 +659,7 @@ video {
 }
 
 .oitava-secao h2 {
-  font-size: 2.5rem;  
+  font-size: 2.5rem;
   text-align: center;
   font-family: 'League Spartan', sans-serif;
 }
@@ -649,11 +673,15 @@ video {
 
 .modalidade {
   display: flex;
+  text-align: center;
+  align-items: center;
   width: 450px;
+  height: 500px;
   flex-direction: column;
   border-radius: 30px;
   margin: 1rem 1rem;
-  -webkit-box-shadow: 0px 2px 8px 2px #fff; 
+  padding: 1rem;
+  -webkit-box-shadow: 0px 2px 8px 2px #fff;
   box-shadow: 0px 2px 8px 2px #fff;
 }
 
@@ -668,9 +696,15 @@ video {
   font-size: 1.3rem;
 }
 
+.modalidade button {
+  width: 90%;
+  margin: auto;
+}
+
 .oitava-secao button {
   margin-bottom: 0;
 }
+
 /* oitava secao  */
 
 /* nona secao  */
@@ -680,7 +714,7 @@ video {
 }
 
 .nona-secao h2 {
-  font-size: 2.5rem;  
+  font-size: 2.5rem;
   text-align: center;
   font-family: 'League Spartan', sans-serif;
 }
@@ -688,7 +722,7 @@ video {
 .plans {
   margin-top: 3rem;
   max-width: 90%;
-  display: flex;  
+  display: flex;
   justify-content: center;
 }
 
@@ -698,34 +732,34 @@ video {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  justify-content: space-between;  
+  justify-content: space-between;
   background: var(--color-5);
   margin: 0 1rem;
-  -webkit-box-shadow: 0px 2px 8px 2px #fff; 
+  -webkit-box-shadow: 0px 2px 8px 2px #fff;
   box-shadow: 0px 1px 3px 1px var(--rosa-medio);
   width: 25%;
 }
 
-.plan h3 {  
+.plan h3 {
   margin: 1rem;
   font-family: 'Rubik Mono One', sans-serif;
   text-shadow: 2px 1px 0px #7A7A7A;
   text-transform: uppercase;
 }
 
-.plan-content {  
+.plan-content {
   display: flex;
   flex-direction: column;
   line-height: 1.8;
 }
 
 .plan-content ul {
-  list-style: none;  
+  list-style: none;
   margin-bottom: 1rem;
   padding: 0 1.5rem;
 }
 
-.plan-content ul > li {  
+.plan-content ul>li {
   text-align: start;
   font-family: 'Rubik Mono One', sans-serif;
   line-height: 1.8;
@@ -736,10 +770,11 @@ video {
   font-family: 'Rubik Mono One', sans-serif;
 }
 
-.plan button {  
+.plan button {
   font-size: 1rem;
   width: 90%;
 }
+
 /* nona secao  */
 
 
@@ -842,22 +877,29 @@ footer a {
 }
 
 @media screen and (max-width: 600px) {
-:root {
-  --color-5: rgba(227, 131, 159, 1);
-}
-/* primeira seção */
+  :root {
+    --color-5: rgba(227, 131, 159, 1);
+  }
+
+  /* primeira seção */
   header {
     display: block;
   }
 
   #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
     padding: 0;
-    border-radius: 50%; /* Rounded corners */
+    border-radius: 50%;
+    /* Rounded corners */
     width: 10%;
     height: 5vh;
     margin: 0;
@@ -932,9 +974,10 @@ footer a {
   .ps-2 span {
     font-size: 1.5rem;
   }
-/* primeira seção */
 
-/* segunda secao */
+  /* primeira seção */
+
+  /* segunda secao */
   .segunda-secao h2 {
     font-family: 'League Spartan', sans-serif;
     margin-bottom: 2rem;
@@ -943,6 +986,7 @@ footer a {
   .segunda-secao {
     gap: 0;
   }
+
   .ss-content {
     margin: 0;
     display: block;
@@ -965,9 +1009,10 @@ footer a {
     font-size: 1.1rem;
     padding: 0 2rem;
   }
-/* segunda-secao */
 
-/* terceira-secao */
+  /* segunda-secao */
+
+  /* terceira-secao */
   .terceira-secao p {
     max-width: 85%;
   }
@@ -993,19 +1038,20 @@ footer a {
     font-size: 1rem;
     padding: 0.5rem;
   }
-/* terceira-secao */
+
+  /* terceira-secao */
 
 
-/* quarta-secao */
+  /* quarta-secao */
   .quarta-secao h2 {
     margin-bottom: 2rem;
   }
 
-  .qs-content {  
-    flex-direction: column;     
+  .qs-content {
+    flex-direction: column;
   }
 
-  .qs-content-icon {        
+  .qs-content-icon {
     justify-content: center;
     font-size: 5rem;
     padding: 1rem;
@@ -1015,10 +1061,11 @@ footer a {
     display: flex;
     text-align: justify;
   }
-/* quarta-secao */
+
+  /* quarta-secao */
 
 
-/* quinta-secao */
+  /* quinta-secao */
   .quinta-secao h2 {
     text-align: center;
   }
@@ -1044,9 +1091,10 @@ footer a {
     font-size: 1.5rem;
     margin: 1rem;
   }
-/* quinta-secao */
 
-/* sexta-secao */
+  /* quinta-secao */
+
+  /* sexta-secao */
   .sexta-secao h2 {
     margin-bottom: 0;
   }
@@ -1055,25 +1103,27 @@ footer a {
     margin: 2rem;
     max-width: 95%;
   }
-/* sexta-secao */
+
+  /* sexta-secao */
 
 
-/* secao-depoimentos */
-.depoimento-escrito {
-  width: 90%;
-}
+  /* secao-depoimentos */
+  .depoimento-escrito {
+    width: 90%;
+  }
 
 
-/* secao-depoimentos */
+  /* secao-depoimentos */
 
-/* accordion */
+  /* accordion */
   .container {
     max-width: 90%;
   }
-/* accordion */
+
+  /* accordion */
 
 
-/* setima-secao */
+  /* setima-secao */
   .setima-secao h2 {
     max-width: 95%;
     margin-bottom: 3rem;
@@ -1095,7 +1145,7 @@ footer a {
 
   .portrait-description {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     text-align: start;
     width: 100%;
   }
@@ -1110,10 +1160,11 @@ footer a {
     font-size: 1.5rem;
     font-style: italic;
   }
-/* setima-secao */
+
+  /* setima-secao */
 
 
-/* oitava-secao */
+  /* oitava-secao */
   .modalidades {
     width: 90%;
     flex-direction: column;
@@ -1123,6 +1174,7 @@ footer a {
     display: flex;
     width: 90%;
     flex-direction: column;
+    height: 65vh;
   }
 
   .modalidade p {
@@ -1133,16 +1185,17 @@ footer a {
   .oitava-secao h2 {
     text-align: center;
   }
-/* oitava-secao */
 
-/* nona-secao */
+  /* oitava-secao */
+
+  /* nona-secao */
   .nona-secao {
     background: var(--color-1);
     color: #fff;
   }
 
   .nona-secao h2 {
-    font-size: 2.5rem;  
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     font-family: 'League Spartan', sans-serif;
   }
@@ -1161,13 +1214,13 @@ footer a {
   .plan {
     display: flex;
     flex-direction: column;
-    align-items: center;     
+    align-items: center;
     width: 100%;
-    margin: 0;    
+    margin: 0;
     width: 70%;
   }
 
-  .plan button {  
+  .plan button {
     font-size: 1rem;
     width: 90%;
     height: 8vh;
@@ -1176,7 +1229,8 @@ footer a {
   .nona-secao .card {
     width: 80%;
   }
-/* nona-secao */
-  
+
+  /* nona-secao */
+
 
 }
