@@ -48,15 +48,16 @@ button {
   border: none;
   border-radius: 9px;
   font-size: 1.5rem;
-  /* background: linear-gradient(90deg, rgba(217, 132, 163, 1) 0%, rgba(236, 79, 149, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(107, 9, 121, 1) 100%); */
-  background: rgba(236, 79, 149, 1);
+  /* background: rgba(236, 79, 149, 1); */
+  background: var(--rosa-medio);
   color: #fff;
   opacity: 0.9;
   font-family: 'Barlow', sans-serif;
 }
 
 button:hover {
-  background: var(--rosa-medio);
+  /* background: var(--rosa-medio); */
+  background: rgba(236, 79, 149, 1);
   transition: all 0.5ms ease;
 }
 
@@ -113,12 +114,6 @@ img {
   /* Add a dark-grey background on hover */
 }
 
-.banner-image img {
-  src: url('assets/images/teachers.png');
-  height: auto;
-  margin-bottom: -4px;
-}
-
 .banner-content {
   /* width: 65%; */
   display: flex;
@@ -169,11 +164,11 @@ section {
 
 /* accordion  */
 .container {
-  box-shadow: 8px 10px 5px #0003;
-  -webkit-box-shadow: 0px 2px 15px 9px #0003;
-  box-shadow: 0px 2px 15px 9px #0003;
+  box-shadow: 8px 10px 5px var(--rosa-escuro);
+  -webkit-box-shadow: 0px 2px 15px 9px var(--rosa-escuro);
+  box-shadow: 0px 2px 15px 9px var(--rosa-escuro);
   max-width: 50%;
-  color: white;
+  /* color: white; */
   border-radius: 5px;
   padding: 10px;
   margin: auto 5px;
@@ -225,9 +220,13 @@ section {
 
 /* Primeira seção */
 .primeira-secao {
-  background: var(--color-5);
-  color: #fff;
+  /* background: var(--color-5); */
+  /* color: #fff; */
+  background: var(--branco);
+  color: var(--rosa-escuro);
+  font-weight: bold;
 }
+
 
 .ps-1 {
   max-width: 95%;
@@ -319,8 +318,11 @@ section {
 
 /* terceira-secao */
 .terceira-secao {
-  background: var(--color-5);
-  color: #fff;
+  /* background: var(--color-5); */
+  /* color: #fff; */
+  background: var(--branco);
+  color: var(--rosa-escuro);
+  font-weight: bold;
 }
 
 .terceira-secao p {
@@ -373,8 +375,11 @@ section {
 
 /* quinta-secao */
 .quinta-secao {
-  background: var(--color-5);
-  color: #fff;
+  /* background: var(--color-5); */
+  /* color: #fff; */
+  background: var(--branco);
+  color: var(--rosa-escuro);
+  font-weight: bold;
 }
 
 .quinta-secao-listas {
@@ -459,8 +464,11 @@ section {
   display: flex;
   justify-content: center;
   text-align: center;
-  background: var(--color-5);
-  color: #fff;
+  /* background: var(--color-5); */
+  /* color: #fff; */
+  background: var(--branco);
+  /* color: var(--rosa-escuro); */
+  font-weight: bold;
 }
 
 .depoimento-escrito {
@@ -473,6 +481,7 @@ section {
   margin: 2rem;
   margin-bottom: 10rem;
   background: var(--color-1);
+  color: var(--branco);
 }
 
 .depoimento-imagem {
@@ -512,6 +521,7 @@ section {
   font-size: 2.5rem;
   text-align: center;
   font-family: 'League Spartan', sans-serif;
+  color: var(--rosa-escuro);
 }
 
 
@@ -654,8 +664,11 @@ video {
 
 /* oitava secao  */
 .oitava-secao {
-  background: var(--color-5);
-  color: #fff;
+  /* background: var(--color-5); */
+  /* color: #fff; */
+  background: var(--branco);
+  color: var(--rosa-escuro);
+  font-weight: bold;
 }
 
 .oitava-secao h2 {
@@ -678,12 +691,13 @@ video {
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  background: var(--color-5);
+  background: var(--branco);
   padding: 1rem;
   margin: 1rem;
-  -webkit-box-shadow: 0px 2px 8px 2px #fff;
-  box-shadow: 0px 2px 8px 2px #fff;
+  -webkit-box-shadow: 0px 2px 8px 2px var(--rosa-escuro);
+  box-shadow: 0px 2px 8px 2px var(--rosa-escuro);
   width: 40%;
+  border: 1px solid var(--rosa-escuro);
 
 }
 
@@ -734,11 +748,13 @@ video {
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  background: var(--color-5);
+  background: var(--branco);
+  color: var(--rosa-escuro);
   margin: 0 1rem;
   -webkit-box-shadow: 0px 2px 8px 2px #fff;
   box-shadow: 0px 1px 3px 1px var(--rosa-medio);
   width: 25%;
+  border: 1px solid var(--rosa-escuro);
 }
 
 .plan h3 {
@@ -780,11 +796,15 @@ video {
 
 
 .decima-secao {
-  background: var(--color-5);
+  /* background: var(--color-5); */
+  background: var(--branco);
+  color: var(--rosa-escuro);
+  font-weight: bold;
 }
 
 .decima-secao h2 {
-  color: #fff;
+  /* color: #fff; */
+  color: var(--rosa-escuro);
   font-size: 2rem;
 }
 
@@ -803,9 +823,11 @@ video {
   padding: 2rem 1.5rem;
   text-align: center;
   display: flex;
-  color: #FFF;
+  /* color: #FFF; */
+  color: var(--rosa-escuro);
   background: rgba(255, 255, 255, 0);
-  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 32px 0 var(--rosa-escuro);
+  /* box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.12); */
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
@@ -823,8 +845,12 @@ video {
   font-size: 3rem;
 }
 
+.metric>img {
+  background-color: var(--rosa-escuro);
+}
+
 .metric span {
-  color: var(--text-color);
+  /* color: var(--text-color); */
   font-size: 1rem;
 }
 
