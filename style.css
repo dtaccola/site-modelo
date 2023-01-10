@@ -845,9 +845,9 @@ video {
   font-size: 3rem;
 }
 
-.metric>img {
+/* .metric>img {
   background-color: var(--rosa-escuro);
-}
+} */
 
 .metric span {
   /* color: var(--text-color); */
