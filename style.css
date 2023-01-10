@@ -91,7 +91,7 @@ img {
   /* Remove borders */
   outline: none;
   /* Remove outline */
-  background: var(--color-4);
+  background: var(--rosa-escuro);
   /* Set a background color */
   color: fff;
   /* Text color */
