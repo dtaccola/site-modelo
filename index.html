@@ -49,14 +49,14 @@
 
 <body>
   <header>
-    <div class="banner-content" id="top">
+    <div class="banner-content">
       <img src="assets/images/foguetinho.webp" alt="rocket">
       <span>CURSO DE INGLÊS</span>
       <h1>Career Booster</h1>
       <p>Destrave o seu inglês e alcance o próximo nível em sua carreira profissional</p>
-      <button type="button">
-        <a href="#pay-methods">INSCREVA-SE</a>
-        <!-- <a href="#">INSCREVA-SE</a> -->
+      <button type="button" onclick="goToPayment()">
+        <!-- <a href="#pay-methods">INSCREVA-SE</a> -->
+        <a href="#">INSCREVA-SE</a>
       </button>
     </div>
   </header>
@@ -116,8 +116,8 @@
       </div>
     </div>
     <div class="ps-2">
-      <button type="button">
-        <a href="#pay-methods">É PARA MIM!</a>
+      <button type="button" onclick="goToPayment()">
+        <a>É PARA MIM!</a>
       </button>
     </div>
   </section>
@@ -378,8 +378,8 @@
       <!-- <div class="swiper-scrollbar"></div> -->
     </div>
     <div class="ps-2">
-      <button type="button">
-        <a href="#pay-methods">FALE INGLÊS COM A GENTE!</a>
+      <button type="button" onclick="goToPayment()">
+        <a href="#">FALE INGLÊS COM A GENTE!</a>
       </button>
     </div>
   </section>
@@ -469,7 +469,7 @@
   <section class="nona-secao" id="pay-methods">
     <h2>FORMAS DE PAGAMENTO E INVESTIMENTO</h2>
     <h3>Planos com aulas individuais de 60 minutos</h3>
-    <div class="plans">
+    <div class="plans" id="">
       <div class="plan">
         <h3>vip</h3>
         <div class="plan-content">
@@ -726,7 +726,8 @@
     <form>
   </footer>
   <!-- botao voltar ao topo -->
-  <button onclick="topFunction()" id="myBtn" title="Voltar ao topo"><i class="fa-solid fa-arrow-up"></i></button>
+  <button type="button" onclick="topFunction()" id="myBtn" title="Voltar ao topo"><i
+      class="fa-solid fa-arrow-up"></i></button>
 </body>
 
 </html>
