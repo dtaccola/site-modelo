@@ -54,18 +54,13 @@ const swiper = new Swiper('.swiper', {
 });
 
 
+// direcionar para formas de pagamento
+// const payMethods = document.getElementById('pay-methods');
+// const coords = payMethods.getBoundingClientRect();
 
-// botão para formas de pagamento
-const payMethods = document.getElementById('pay-methods');
-const coords = payMethods.getBoundingClientRect();
-console.log(payMethods);
-console.log(coords);
-
-
-function goToPayment() {
-  console.log('click');
-  window.scrollTo(coords);
-}
+// function goToPayment() {
+//   window.scrollTo(coords);
+// }
 
 
 
@@ -73,7 +68,9 @@ function goToPayment() {
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () { scrollFunction() };
+window.onscroll = () => {
+  scrollFunction();
+};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
