@@ -4,7 +4,6 @@
   --color-3: #6f5771;
   --color-4: #b06584;
   --color-5: linear-gradient(0deg, rgba(226, 189, 202, 1) 1%, rgba(227, 131, 159, 1) 100%);
-  /* --color-5: #d58097; */
   --color-6: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(107, 9, 121, 1) 0%, rgba(199, 123, 157, 1) 0%, rgba(11, 48, 57, 1) 60%) --color-7: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 
   --azul-muito-escuro: #0b3039;
@@ -48,7 +47,6 @@ button {
   border: none;
   border-radius: 9px;
   font-size: 1.5rem;
-  /* background: rgba(236, 79, 149, 1); */
   background: var(--rosa-medio);
   color: #fff;
   opacity: 0.9;
@@ -56,7 +54,6 @@ button {
 }
 
 button:hover {
-  /* background: var(--rosa-medio); */
   background: rgba(236, 79, 149, 1);
   transition: all 0.5ms ease;
 }
@@ -161,6 +158,12 @@ section {
   gap: 1rem;
 }
 
+.payments {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
 
 /* accordion  */
 .container {
@@ -168,7 +171,6 @@ section {
   -webkit-box-shadow: 0px 2px 15px 9px var(--rosa-escuro);
   box-shadow: 0px 2px 15px 9px var(--rosa-escuro);
   max-width: 50%;
-  /* color: white; */
   border-radius: 5px;
   padding: 10px;
   margin: auto 5px;
@@ -220,8 +222,6 @@ section {
 
 /* Primeira seção */
 .primeira-secao {
-  /* background: var(--color-5); */
-  /* color: #fff; */
   background: var(--branco);
   color: var(--rosa-escuro);
   font-weight: bold;
@@ -259,10 +259,10 @@ section {
   align-items: center;
 }
 
-
 .ps-2 span {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
+
 
 /* Primeira seção */
 
@@ -270,12 +270,6 @@ section {
 .segunda-secao {
   background: var(--color-1);
   color: #fff;
-}
-
-.segunda-secao h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  font-family: 'League Spartan', sans-serif;
 }
 
 .ss-content {
@@ -375,8 +369,6 @@ section {
 
 /* quinta-secao */
 .quinta-secao {
-  /* background: var(--color-5); */
-  /* color: #fff; */
   background: var(--branco);
   color: var(--rosa-escuro);
   font-weight: bold;
@@ -416,12 +408,12 @@ section {
   font-size: 2.5rem;
   text-align: center;
   font-family: 'League Spartan', sans-serif;
+  margin-bottom: 2rem;
 }
 
 .quinta-secao p {
   max-width: 80%;
-  line-height: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 5rem;
 }
 
@@ -690,7 +682,7 @@ video {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background: var(--branco);
   padding: 1rem;
   margin: 1rem;
@@ -699,21 +691,6 @@ video {
   width: 40%;
   border: 1px solid var(--rosa-escuro);
 
-}
-
-.modalidade span {
-  text-align: center;
-  font-size: 1.5rem;
-  margin: 1.5rem;
-}
-
-
-.modalidade-content p {
-  font-size: 1.3rem;
-}
-
-.modalidade button {
-  width: 90%;
 }
 
 .oitava-secao button {
@@ -913,6 +890,10 @@ footer a {
     display: block;
   }
 
+  p {
+    font-size: 1.4rem;
+  }
+
   #myBtn {
     display: none;
     /* Hidden by default */
@@ -971,6 +952,7 @@ footer a {
   button {
     width: 90%;
     height: 8vh;
+    font-size: 1.3rem;
   }
 
   .banner-content button {
@@ -998,16 +980,15 @@ footer a {
     font-size: 1.5rem;
   }
 
-  .ps-2 span {
-    font-size: 1.5rem;
-  }
-
   /* primeira seção */
 
   /* segunda secao */
   .segunda-secao h2 {
     font-family: 'League Spartan', sans-serif;
     margin-bottom: 2rem;
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
   }
 
   .segunda-secao {
@@ -1113,10 +1094,10 @@ footer a {
   .quinta-secao p {
     max-width: 80%;
     text-align: justify;
-    line-height: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin: 1rem;
   }
+
 
   /* quinta-secao */
 
@@ -1198,20 +1179,23 @@ footer a {
 
   .modalidade {
     display: flex;
-    width: 90%;
+    width: 95%;
     flex-direction: column;
     height: 60vh;
   }
 
-  #mod-2 {
-    display: flex;
-    width: 90%;
-    flex-direction: column;
-    height: 70vh;
+  .modalidade-title span {
+    text-align: center;
+    font-size: 1.5rem;
   }
 
-  .modalidade p {
-    font-size: 1.2rem;
+  .modalidade-content p {
+    font-size: 1rem;
+  }
+
+  .modalidade-footer {
+    width: 95%;
+    /* border: 1px solid red; */
   }
 
   .oitava-secao h2 {

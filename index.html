@@ -55,7 +55,7 @@
       <h1>Career Booster</h1>
       <p>Destrave o seu inglês e alcance o próximo nível em sua carreira profissional</p>
       <!-- <button type="button"> -->
-      <a href="#pay-methods"><button type="button">INSCREVA-SE</button></a>
+      <a href="#pay-methods" class="payments"><button type="button">INSCREVA-SE</button></a>
       <!-- </button> -->
     </div>
   </header>
@@ -115,9 +115,12 @@
       </div>
     </div>
     <div class="ps-2">
-      <button type="button">
+      <!-- <button type="button">
         <a href="#pay-methods">É PARA MIM!</a>
-      </button>
+      </button> -->
+      <a href="#pay-methods" class="payments">
+        <button>É PARA MIM!</button>
+      </a>
     </div>
   </section>
 
@@ -377,9 +380,12 @@
       <!-- <div class="swiper-scrollbar"></div> -->
     </div>
     <div class="ps-2">
-      <button type="button">
+      <!-- <button type="button">
         <a href="#pay-methods">FALE INGLÊS COM A GENTE!</a>
-      </button>
+      </button> -->
+      <a href="#pay-methods" class="payments">
+        <button>FALE INGLÊS COM A GENTE!</button>
+      </a>
     </div>
   </section>
 
@@ -426,9 +432,12 @@
       </div>
     </div>
     <div class="ps-2">
-      <button type="button">
+      <!-- <button type="button">
         <a href="#pay-methods">Comece seus estudos agora!</a>
-      </button>
+      </button> -->
+      <a href="#pay-methods" class="payments">
+        <button><span>Comece seus estudos agora</span></button>
+      </a>
     </div>
   </section>
 
@@ -436,33 +445,47 @@
     <h2>OUTRAS MODALIDADES DO CURSO</h2>
     <div class="modalidades">
       <div class="modalidade">
-        <span>General English</span>
-        <p>
-          O curso de inglês geral é ideal para aqueles que desejam aprender a língua para uso cotidiano e situações
-          sociais.
-          Neste curso você irá praticar a comunicação em diferentes situações, como: compras, restaurantes, falar
-          sobre
-          preferências, direções, família, pessoas, lugares, viagens entre outras utilizando vocabulário e estruturas
-          gramaticais apropriadas.
-        </p>
-        <button>
-          <a target="_blank" href="https://forms.gle/hSNjPBFz7kJA7ReJ6">QUERO ESSE CURSO!</a>
-        </button>
+        <div class="modalidade-title">
+          <span>General English</span>
+        </div>
+        <div class="modalidade-content">
+          <p>
+            O curso de inglês geral é ideal para aqueles que desejam aprender a língua para uso cotidiano e situações
+            sociais.
+            Neste curso você irá praticar a comunicação em diferentes situações, como: compras, restaurantes, falar
+            sobre
+            preferências, direções, família, pessoas, lugares, viagens entre outras utilizando vocabulário e estruturas
+            gramaticais apropriadas.
+          </p>
+        </div>
+        <div class="modalidade-footer">
+          <button>
+            <a target="_blank" href="https://forms.gle/hSNjPBFz7kJA7ReJ6">QUERO ESSE CURSO!</a>
+          </button>
+        </div>
       </div>
-      <div class="modalidade" id="mod-2">
-        <span>Advanced Conversation</span>
-        <p>
-          O curso advanced conversation é ideal para pessoas que já estudaram inglês por um longo tempo, mas ainda não
-          se sentem confiantes para se expressarem em inglês, ou então aqueles que desejam fazer uma manutenção da
-          língua. Neste curso você irá praticar e melhorar as suas habilidades de listening e speaking, que são tão
-          dependentes uma da outra para uma boa comunicação. Você aprenderá estruturas, vocabulários e também fonética
-          que irão te preparar para falar com mais naturalidade.
-        </p>
-        <button>
-          <a target="_blank" href="https://forms.gle/hSNjPBFz7kJA7ReJ6">QUERO ESSE CURSO!</a>
-        </button>
+
+      <div class="modalidade">
+        <div class="modalidade-title">
+          <span>Advanced Conversation</span>
+        </div>
+        <div class="modalidade-content">
+          <p>
+            O curso advanced conversation é ideal para pessoas que já estudaram inglês por um longo tempo, mas ainda não
+            se sentem confiantes para se expressarem em inglês, ou então aqueles que desejam fazer uma manutenção da
+            língua. Neste curso você irá praticar e melhorar as suas habilidades de listening e speaking, que são tão
+            dependentes uma da outra para uma boa comunicação. Você aprenderá estruturas, vocabulários e também fonética
+            que irão te preparar para falar com mais naturalidade.
+          </p>
+        </div>
+        <div class="modalidade-footer">
+          <button>
+            <a target="_blank" href="https://forms.gle/hSNjPBFz7kJA7ReJ6">QUERO ESSE CURSO!</a>
+          </button>
+        </div>
       </div>
     </div>
+
   </section>
 
   <section class="nona-secao" id="pay-methods">
@@ -724,6 +747,7 @@
     </div>
     <form>
   </footer>
+
   <!-- botao voltar ao topo -->
   <button type="button" onclick="topFunction()" id="myBtn" title="Voltar ao topo"><i
       class="fa-solid fa-arrow-up"></i></button>
