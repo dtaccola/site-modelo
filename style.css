@@ -678,19 +678,39 @@ video {
 
 .modalidade {
   border-radius: 10px;
+  width: 40%;
+  height: 55vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   justify-content: space-around;
   background: var(--branco);
-  padding: 1rem;
-  margin: 1rem;
   -webkit-box-shadow: 0px 2px 8px 2px var(--rosa-escuro);
   box-shadow: 0px 2px 8px 2px var(--rosa-escuro);
-  width: 40%;
   border: 1px solid var(--rosa-escuro);
+  margin: 1rem;
 
+}
+
+.modalidade-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.modalidade-content p {
+  font-size: 1.1rem;
+  padding: 1rem;
+  height: 30vh;
+}
+
+.modalidade-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.modalidade-footer button {
+  width: auto;
+  padding: 1rem;
 }
 
 .oitava-secao button {

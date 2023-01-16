@@ -53,17 +53,6 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-
-// direcionar para formas de pagamento
-// const payMethods = document.getElementById('pay-methods');
-// const coords = payMethods.getBoundingClientRect();
-
-// function goToPayment() {
-//   window.scrollTo(coords);
-// }
-
-
-
 // Botão back to top
 let mybutton = document.getElementById("myBtn");
 
